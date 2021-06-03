@@ -1,0 +1,67 @@
+
+
+*{
+    box-sizing: border-box;
+  }
+
+  main{
+
+    padding: 35px;;
+  }
+
+header{
+    display:inline-block;
+    padding: 30px;
+    text-align: center;
+    background-color:#f1f1f1; 
+    width:100%;
+}
+
+nav{
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    position: relative;
+    /* top  */
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+
+
+
+}
+
+nav ul li:first-child{
+    position: absolute;
+    left: 20px;
+    
+}
+
+main img {
+    text-align: center;
+margin-left: 13%;}
+p{
+
+    text-align: center;
+    padding: 1%;
+}
+
+#pic{
+    margin-left: 14%;
+    background-image:url("https://raw.githubusercontent.com/LTUC/amman-201d26/main/class-10/lab-a/lab-assets/list-bg.png");
+    background-repeat: no-repeat;
+  height: 500px;
+}
+
+/* main h1{
+    fon
+} */
+#print{
+    float: right;
+}
+
+    
