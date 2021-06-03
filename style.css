@@ -1,6 +1,6 @@
 
 
-*{
+/**{
     box-sizing: border-box;
   }
 
@@ -8,7 +8,7 @@
 
     padding: 35px;;
   }
-
+*/
 header{
     display:inline-block;
     padding: 30px;
@@ -16,7 +16,17 @@ header{
     background-color:#f1f1f1; 
     width:100%;
 }
-
+#check1,#check2
+{
+    text-decoration: line-through;
+    
+}
+#parcent
+{
+    position: relative;
+    display: block;
+    text-align: center;
+}
 nav{
     background-color: #333;
     margin-bottom: 20px;
@@ -33,6 +43,14 @@ nav ul li{
 
 
 
+}
+#ul1,#ul2
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 20%;
+    padding-top: 3%;
 }
 
 nav ul li:first-child{
@@ -54,7 +72,7 @@ p{
     margin-left: 14%;
     background-image:url("https://raw.githubusercontent.com/LTUC/amman-201d26/main/class-10/lab-a/lab-assets/list-bg.png");
     background-repeat: no-repeat;
-  height: 500px;
+  height: 800px;
 }
 
 /* main h1{
@@ -64,4 +82,46 @@ p{
     float: right;
 }
 
+#sharebut
+{
+    float :right;
+    background-color: chocolate;
+    color: white;
+    width: 10%; height: 40px;
+    margin-right: 10%;
+
+}
     
+#name
+{
+    position: relative;
+
+    text-decoration-style: double;
+
+}
+#hrfoot
+{
+    text-align: center;
+    height: 10px;
+    
+}
+
+#FootItems
+{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+#footimg
+{
+    position: absolute;
+    left: 0;
+    
+}
+#picfoot
+{
+    color: grey;
+    margin-left: 50%;
+}
